@@ -1,0 +1,89 @@
+LassoRidgeRegression:
+
+Average metric [126.28749819892796]
+
+RMSE: 126.17129284242456  R-squared:0.5901663946609959
+
+[StringIndexerModel: uid=StringIndexer_f783778c07da, handleInvalid=keep, numInputCols=4, numOutputCols=4, OneHotEncoderModel: uid=OneHotEncoder_e79e52983a30, dropLast=false, handleInvalid=error, numInputCols=4, numOutputCols=4, VectorAssembler_a13b24a51454, MinMaxScalerModel: uid=MinMaxScaler_164b3517cfad, numFeatures=1, min=0.0, max=1.0, VectorAssembler_d20db549e9a8, LinearRegressionModel: uid=LinearRegression_564b952d632a, numFeatures=9977]
+bestModel intercept 213.7221382855052
+Feature Importance:
+  daysBetweenFlight: -2.336
+  flightDate_OnWeekend: -30.579
+  startingAirport: -17.970
+  destinationAirport: 21.467
+  travelduration_total_minutes: 2.673
+  elapsedDays: -11.462
+  isBasicEconomy: -21.451
+  isNonStop: 9.625
+  seatsRemaining: -15.032
+  totalTravelDistance: -36.966
+  segmentsArrivalAirportCode: 18.315
+  segmentsCabinCode: 15.875
+
+Linear Regression:
+
+Average metric [126.5802136340243]
+
+RMSE: 126.42186499823238  R-squared:0.5888456198011153
+
+[StringIndexerModel: uid=StringIndexer_38ee4d757c47, handleInvalid=keep, numInputCols=4, numOutputCols=4, OneHotEncoderModel: uid=OneHotEncoder_ea99aafd2e53, dropLast=false, handleInvalid=error, numInputCols=4, numOutputCols=4, VectorAssembler_5d30dc43c88d, MinMaxScalerModel: uid=MinMaxScaler_dcf5a2cac5d7, numFeatures=1, min=0.0, max=1.0, VectorAssembler_8a67506af236, LinearRegressionModel: uid=LinearRegression_baa54bef0a6a, numFeatures=9962]
+bestModel intercept 214.20020853200674
+Feature Importance:
+  daysBetweenFlight: -2.303
+  flightDate_OnWeekend: -30.594
+  startingAirport: -17.899
+  destinationAirport: 21.581
+  travelduration_total_minutes: 2.663
+  elapsedDays: -11.458
+  isBasicEconomy: -21.501
+  isNonStop: 9.597
+  seatsRemaining: -15.074
+  totalTravelDistance: -36.939
+  segmentsArrivalAirportCode: 18.291
+  segmentsCabinCode: 15.833
+
+
+Ridge Regression:
+
+Average metric [126.5802749971769]
+
+RMSE: 126.42190553009543  R-squared:0.5888453561622946
+
+[StringIndexerModel: uid=StringIndexer_6837846c8377, handleInvalid=keep, numInputCols=4, numOutputCols=4, OneHotEncoderModel: uid=OneHotEncoder_695f3cb300af, dropLast=false, handleInvalid=error, numInputCols=4, numOutputCols=4, VectorAssembler_04fc503ce6b3, MinMaxScalerModel: uid=MinMaxScaler_a2f7aadd88af, numFeatures=1, min=0.0, max=1.0, VectorAssembler_62169499c448, LinearRegressionModel: uid=LinearRegression_4fc1688a48e6, numFeatures=9962]
+bestModel intercept 213.80725425007918
+Feature Importance:
+  daysBetweenFlight: -2.357
+  flightDate_OnWeekend: -30.573
+  startingAirport: -17.903
+  destinationAirport: 21.503
+  travelduration_total_minutes: 2.703
+  elapsedDays: -11.428
+  isBasicEconomy: -21.446
+  isNonStop: 9.616
+  seatsRemaining: -15.052
+  totalTravelDistance: -36.934
+  segmentsArrivalAirportCode: 18.317
+  segmentsCabinCode: 15.842
+
+Lasso Regression:
+
+Average metric [126.77217772682862]
+
+RMSE: 126.61944436469673  R-squared:0.5875594640904316
+
+[StringIndexerModel: uid=StringIndexer_fbfaa1451b21, handleInvalid=keep, numInputCols=4, numOutputCols=4, OneHotEncoderModel: uid=OneHotEncoder_27f8b3ad7169, dropLast=false, handleInvalid=error, numInputCols=4, numOutputCols=4, VectorAssembler_95bb18e96130, MinMaxScalerModel: uid=MinMaxScaler_eda39d58df93, numFeatures=1, min=0.0, max=1.0, VectorAssembler_103dd7b980d6, LinearRegressionModel: uid=LinearRegression_40d7046f54f1, numFeatures=9962]
+bestModel intercept 200.02832102834984
+Feature Importance:
+  daysBetweenFlight: 0.000
+  flightDate_OnWeekend: -27.693
+  startingAirport: -16.024
+  destinationAirport: 23.902
+  travelduration_total_minutes: 4.052
+  elapsedDays: -8.691
+  isBasicEconomy: -18.729
+  isNonStop: 11.333
+  seatsRemaining: -12.143
+  totalTravelDistance: -34.501
+  segmentsArrivalAirportCode: 22.689
+  segmentsCabinCode: 16.574
+
